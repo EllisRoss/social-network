@@ -1,0 +1,22 @@
+.form_control {
+
+}
+
+.form_control.error textarea,
+.form_control.error input {
+    border: solid red 1px;
+}
+
+.form_control.error label {
+    color: red;
+}
+
+.form_summary_error {
+    /*border: solid red 1px;*/
+    padding: 5px;
+    color: red;
+}
+
+.captcha {
+    width: 176px;
+}

@@ -1,0 +1,21 @@
+.item {
+}
+
+.itemLike {
+    color: green;
+}
+
+.itemDislike {
+    color: red;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 155%;
+}

@@ -1,0 +1,21 @@
+.friends {
+    color: white;
+    font-size: 17px;
+}
+
+.items {
+    grid-gap: 5px;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.items a {
+    text-decoration: none;
+    color: white;
+}
+
+.item img {
+    width: 40px;
+    border-radius: 20px;
+}

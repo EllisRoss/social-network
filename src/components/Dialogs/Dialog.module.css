@@ -1,0 +1,11 @@
+.dialogs_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /*padding: 10px;*/
+    /*margin: 10px;*/
+}
+
+.dialogs_wrapper img {
+    width: 40px;
+}
+

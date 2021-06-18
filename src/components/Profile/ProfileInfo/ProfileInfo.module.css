@@ -1,0 +1,29 @@
+.userName {
+    font-size: 20pt;
+    /*background-color: crimson;*/
+}
+
+
+.descriptionBlock {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "ava desc";
+}
+
+.userAvatar {
+    grid-area: ava;
+}
+
+.userAvatar img {
+    width: 200px;
+    height: 200px;
+}
+
+.userDescription {
+    grid-area: desc;
+}
+
+.contacts {
+    padding-left: 10px;
+}
